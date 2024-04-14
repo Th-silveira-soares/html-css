@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <hr>
+    <h2>Listas Ordenadas</h2>
+    <p>Para criar uma lista ordenada, utiliza-se a tag &lt;ol&gt;.</p>
+    <p>Dentro da tag, existem alguns parâmetros adicionais como o <strong>type</strong> que serve configurar que tipo de ordenamento terá a lista atual. </p>
+    <p>No caso a seguir, foi utilizado o type = "a", fazendo com que a lista tenha ordenamento alfabético minúsculo.
+    <p>O código fica: <code>&lt;ol type="a"&gt;</code>.</p>
+    </p>
+    <ol type="1">
+        <li>Item 1
+        <li>Item 2
+        <li>Item 3
+        <li>Item 4
+        <li>Item 5
+    </ol>
+    <p>Um exemplo de concatenação de listas:</p>
+    <ol>
+        <li>Item 1
+        <li>Item 2
+        <ol type="a">
+            <li>Item 2.1
+            <li>Item 2.2
+            <li>Item 2.3
+        </ol>
+        <li>Item 3
+        <li>Item 4
+        <li>Item 5
+    </ol>
+    <hr>
+    <h2>Listas Não Ordenadas</h2>
+    <p>Para criação de listas não ordenadas, se faz o uso da tag &lt;ul&gt;.</p>
+    <p>Semelhante as listas ordenadas, em ul também existe o type, no entanto, não existe ordenação específica, apenas formatos geométricos como: disc, circle e square.</p>
+    <ul type="disc">
+        <li>Item 1</li>
+    </ul>
+    <ul type="square">
+        <li>Item 1</li>
+    </ul>
+    <ul type="circle">
+        <li>Item 1</li>
+    </ul>
+    <hr>
+    <h2>Listas de Definição</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hypertext Mark Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+    </dl>
+</body>
+</html>
